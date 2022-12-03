@@ -157,7 +157,8 @@ public class UCropActivity extends AppCompatActivity {
         if (menuItemCropIcon != null) {
             menuItemCropIcon.mutate();
             menuItemCropIcon.setColorFilter(mToolbarWidgetColor, PorterDuff.Mode.SRC_ATOP);
-            menuItemCrop.setIcon(menuItemCropIcon);
+//            menuItemCrop.setIcon(menuItemCropIcon);//把那个对号改为完成两个字
+            menuItemCrop.setTitle("完成");
         }
 
         return true;
